@@ -1,0 +1,64 @@
+/* JENNA FAMBROUGH 12/13/2021 */
+
+
+
+
+.subheading{
+    color: rgb(253, 182, 194);
+}
+
+.h2{
+    color: pink;
+    font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+}
+
+.copyright{
+    color: thistle;
+}
+
+
+.name{
+    color:white;
+    font-family:fantasy;
+    font-weight: lighter;
+}
+
+body {
+    background-color:rgb(255, 232, 236);
+}
+
+a { color: pink;
+text-decoration:underline ;
+font-weight: lighter; }
+a:hover {color: thistle;}
+
+.footer{
+    text-align: center;
+    color: rgb(148, 148, 148);
+    font-family: cursive;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+ 
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .resume{ 
+      color: rgb(148, 148, 148);
+  }
+  li {
+      color: rgb(148, 148, 148);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
